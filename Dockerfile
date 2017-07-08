@@ -13,6 +13,4 @@ COPY . /app
 
 EXPOSE 8080
 
-mongorestore --db CoffeeDB CoffeeDB/
-
 CMD ["npm", "start"]
